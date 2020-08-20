@@ -1,5 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://andy123:andy123@devconnector.5igqx.mongodb.net/DevConnector?retryWrites=true&w=majority",
-  "jwtSecret": "SummonersWar",
-  "githubToken": "6e8ab00373d1aa5e55b7724089ecedc4197be9da"
-}
