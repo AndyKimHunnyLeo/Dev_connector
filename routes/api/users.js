@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const config = require('config');
 
 //@route    POST api/users
-//@desc     Test route
+//@desc     When User register
 //@access   public
 router.post(
   '/',
@@ -45,7 +45,6 @@ router.post(
         d: 'mm',
       });
       //Encrypt password (higher number will be more scure it will be but 10 is recommended)
-
       user = new User({
         name,
         email,
@@ -66,7 +65,6 @@ router.post(
       };
 
       //return jsonwebtoken
-
       jwt.sign(
         playload,
         config.get('jwtSecret'),
